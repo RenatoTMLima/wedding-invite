@@ -32,6 +32,11 @@ export const MedievalEnvelope = styled.div`
     width: 361px;
     height: 258px;
   }
+  
+  @media screen and (device-width: 780px) {
+    width: 361px;
+    height: 258px;
+  }
 `
 
 export const EnvelopeText = styled.strong`
@@ -44,6 +49,11 @@ export const EnvelopeText = styled.strong`
   }
 
   @media screen and (max-width: 780px) {
+    margin: 2px 0;
+    font-size: 36px;
+  }
+
+  @media screen and (device-width: 780px) {
     margin: 2px 0;
     font-size: 36px;
   }
@@ -83,6 +93,11 @@ export const TopLetterDetail = styled.div`
     width: 309px;
     height: 72px;
   }
+
+  @media screen and (device-width: 780px) {
+    width: 309px;
+    height: 72px;
+  }
 `
 
 export const BottomLetterDetail = styled.div`
@@ -92,6 +107,11 @@ export const BottomLetterDetail = styled.div`
   background-size: cover;
 
   @media screen and (max-width: 780px) {
+    width: 309px;
+    height: 70px;
+  }
+
+  @media screen and (device-width: 780px) {
     width: 309px;
     height: 70px;
   }
@@ -110,6 +130,10 @@ export const MedievalText = styled.span`
   text-align: center;
 
   @media screen and (max-width: 780px) {
+    font-size: 44px;
+  }
+
+  @media screen and (device-width: 780px) {
     font-size: 44px;
   }
 `
