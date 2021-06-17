@@ -33,7 +33,7 @@ export const MedievalEnvelope = styled.div`
     height: 258px;
   }
   
-  @media screen and (max-width: 500px) {
+  @media screen and (max-device-width: 780px) {
     width: 361px;
     height: 258px;
   }
@@ -53,7 +53,7 @@ export const EnvelopeText = styled.strong`
     font-size: 36px;
   }
 
-  @media screen and (max-width: 500px) {
+  @media screen and (max-device-width: 780px) {
     margin: 2px 0;
     font-size: 36px;
   }
@@ -94,7 +94,7 @@ export const TopLetterDetail = styled.div`
     height: 72px;
   }
 
-  @media screen and (max-width: 500px) {
+  @media screen and (max-device-width: 780px) {
     width: 309px;
     height: 72px;
   }
@@ -111,7 +111,7 @@ export const BottomLetterDetail = styled.div`
     height: 70px;
   }
 
-  @media screen and (max-width: 500px) {
+  @media screen and (max-device-width: 780px) {
     width: 309px;
     height: 70px;
   }
@@ -133,7 +133,7 @@ export const MedievalText = styled.span`
     font-size: 44px;
   }
 
-  @media screen and (max-width: 500px) {
+  @media screen and (max-device-width: 780px) {
     font-size: 44px;
   }
 `
