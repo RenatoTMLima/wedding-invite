@@ -27,6 +27,11 @@ export const MedievalEnvelope = styled.div`
     display: flex;
     flex-direction: column;
   }
+
+  @media screen and (max-width: 780px) {
+    width: 361px;
+    height: 258px;
+  }
 `
 
 export const EnvelopeText = styled.strong`
@@ -37,11 +42,16 @@ export const EnvelopeText = styled.strong`
   & span {
     font-weight: normal;
   }
+
+  @media screen and (max-width: 780px) {
+    margin: 2px 0;
+    font-size: 36px;
+  }
 `
 export const OpenLetterContainer = styled.div`
   height: 100vh;
   padding: 0 20px;
-  background: url("/letter-bg.jpg") no-repeat center center;
+  background: url("/letter-bg.jpg") no-repeat center;
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -49,7 +59,6 @@ export const OpenLetterContainer = styled.div`
 `
 
 export const MedievalLetter = styled.div`
-  min-width: 600px;
   width: 100%;
   max-width: 980px;
   height: 95vh;
@@ -69,6 +78,11 @@ export const TopLetterDetail = styled.div`
   height: 121px;
   background: url("/top-letter-detail.png") no-repeat center center;
   background-size: cover;
+
+  @media screen and (max-width: 780px) {
+    width: 309px;
+    height: 72px;
+  }
 `
 
 export const BottomLetterDetail = styled.div`
@@ -76,6 +90,11 @@ export const BottomLetterDetail = styled.div`
   height: 118px;
   background: url("/bottom-letter-detail.png") no-repeat center center;
   background-size: cover;
+
+  @media screen and (max-width: 780px) {
+    width: 309px;
+    height: 70px;
+  }
 `
 
 export const LetterContent = styled.div`
@@ -88,4 +107,9 @@ export const LetterContent = styled.div`
 export const MedievalText = styled.span`
   font-family: 'Italianno', sans-serif;
   font-size: 56px;
+  text-align: center;
+
+  @media screen and (max-width: 780px) {
+    font-size: 44px;
+  }
 `
