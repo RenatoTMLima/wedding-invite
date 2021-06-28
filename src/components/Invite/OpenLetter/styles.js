@@ -25,13 +25,13 @@ export const MedievalText = styled.span`
   text-align: center;
 
   @media screen and (max-width: 780px) {
-    font-size: 44px;
+    font-size: 40px;
   }
 `
 
 export const Moldura = styled.div`
-  width: 342px;
-  height: 324px;
+  width: 308px;
+  height: 291px;
   background: url("/foto-moldura.png") no-repeat center;
   background-size: cover;
   display: flex;

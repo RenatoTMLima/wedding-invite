@@ -25,35 +25,43 @@ export default function OpenLetter() {
       <>
         <MedievalText>Amor para mim é ser capaz</MedievalText>
         <MedievalText>de permitir que aquele</MedievalText>
-        <MedievalText>que eu amo exista como tal, como ele mesmo.</MedievalText>
+        <MedievalText>que eu amo exista como tal,</MedievalText>
+        <MedievalText>como ele mesmo.</MedievalText>
+      </>,
+      <>
         <MedievalText>Isso é o mais pleno do amor.</MedievalText>
-        <MedievalText>Dar liberdade dele existir ao meu lado</MedievalText>
+        <MedievalText>Dar liberdade dele</MedievalText>
+        <MedievalText>existir ao meu lado</MedievalText>
         <MedievalText>do jeito que ele é.</MedievalText>
       </>,
       <>
         <Moldura>
-          <Image src={photo03} width="198" height="162" />
+          <Image src={photo03} width="178" height="145" />
         </Moldura>
         <MedievalText>Nossa primeira foto juntos...</MedievalText>
       </>,
       <>
         <Moldura>
-          <Image src={photo01} width="198" height="162" />
+          <Image src={photo01} width="178" height="145" />
         </Moldura>
         <MedievalText>São Thomé das Letras - MG</MedievalText>
       </>,
       <>
         <Moldura>
-          <Image src={photo04} width="198" height="162" />
+          <Image src={photo04} width="178" height="145" />
         </Moldura>
         <MedievalText>No Yellow Submarine</MedievalText>
       </>,
       <>
-        <MedievalText>São quase 9 anos colecionando momentos</MedievalText>
-        <MedievalText>e fortalecendo o que há de mais precioso:</MedievalText>
+        <MedievalText>São quase 9 anos colecionando</MedievalText>
+        <MedievalText>momentos e fortalecendo o</MedievalText>
+        <MedievalText>que há de mais precioso:</MedievalText>
         <MedievalText><strong>o Amor...</strong></MedievalText>
-        <MedievalText>E para selar mais um grande momento, </MedievalText>
-        <MedievalText>convidamos você para a celebração</MedievalText>
+      </>,
+      <>
+        <MedievalText>E para selar mais um </MedievalText>
+        <MedievalText>grande momento, convidamos</MedievalText>
+        <MedievalText>você para a celebração</MedievalText>
         <MedievalText>do nosso casamento:</MedievalText>
       </>,
       <>
