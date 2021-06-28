@@ -1,7 +1,12 @@
 import Head from 'next/head'
-import Invite from '../components/Home'
+import { useRouter } from 'next/router'
+import Invite from '../components/Invite'
 
 export default function Home() {
+  const router = useRouter()
+
+  const { inviteId } = router.query
+  
   return (
     <>
       <Head>
@@ -13,7 +18,7 @@ export default function Home() {
         <meta property="og:image" itemProp="image" content="https://raw.githubusercontent.com/RenatoTMLima/wedding-invite/main/public/link-img.png"></meta>
         <meta property="og:type" content="website" />
       </Head>
-      <Invite />
+      <Invite inviteId={inviteId} />
     </>
   )
 }
