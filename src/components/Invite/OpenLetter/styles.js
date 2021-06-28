@@ -15,6 +15,8 @@ export const OpenLetterContent = styled.div`
   margin: auto 0;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
 `
 
 export const MedievalText = styled.span`
@@ -25,6 +27,16 @@ export const MedievalText = styled.span`
   @media screen and (max-width: 780px) {
     font-size: 44px;
   }
+`
+
+export const Moldura = styled.div`
+  width: 342px;
+  height: 324px;
+  background: url("/foto-moldura.png") no-repeat center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 `
 
 export const ButtonContainer = styled.div`

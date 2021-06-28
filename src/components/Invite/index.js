@@ -1,4 +1,5 @@
-import { useState, useCallback } from 'react'
+import { useState, useCallback, useEffect } from 'react'
+import { useRouter } from 'next/router'
 
 import { 
   FirstBackground, 
@@ -12,6 +13,12 @@ import invitedList from '../../static/invitedList'
 
 export default function Invite({ inviteId }) {
   const [open, setOpen] = useState(false)
+
+  const router = useRouter()
+
+  useEffect(() => {
+    if(!!inviteId && !invitedList.hasOwnProperty(inviteId)) router.push('/')
+  }, [inviteId, router])
   
   const handleOpenEnvelope = useCallback(() => setOpen(true), [open])
   

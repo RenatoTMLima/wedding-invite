@@ -45,6 +45,6 @@ export const EnvelopeText = styled.strong`
 
   @media screen and (max-width: 780px) {
     margin: 2px 0;
-    font-size: 36px;
+    font-size: 30px;
   }
 `
